@@ -63,7 +63,9 @@ console.log(listaDeTarefas)
 
 //Exercicio6_____________________________________________________________
 
-
+let frase1 = 'O Bruno é muito legal!'
+let fraseArray = frase1.split(' ')
+console.log(fraseArray)
 
 //Exercício7__________________________________________________________
 
