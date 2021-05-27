@@ -33,7 +33,12 @@ console.log(`O e-mail ${email} foi cadastrado com sucesso! Bem vindo(a) ${nome}!
 
 let comidinhas = ['pizza','risotto','pastel','torta','bolo']
 console.log(comidinhas)
-console.log(`Essas são as minhas comidas preferidas: ${comidinhas}`)
+console.log(`Essas são as minhas comidas preferidas:`)
+console.log(comidinhas[0])
+console.log(comidinhas[1])
+console.log(comidinhas[2])
+console.log(comidinhas[3])
+console.log(comidinhas[4])
 let comidinhaUsuario = prompt('Qual é a sua comida preferida?')
 let x = 1
 comidinhas[x] = comidinhaUsuario
@@ -57,6 +62,7 @@ listaDeTarefas.splice(check - 1, check - 1)
 console.log(listaDeTarefas)
 
 //Exercicio6_____________________________________________________________
+
 
 
 //Exercício7__________________________________________________________
