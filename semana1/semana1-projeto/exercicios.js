@@ -62,30 +62,38 @@ function imprimeTresCoresFavoritas() {
 // Exercício 6
 function retornaStringEmMaiuscula() {
   let palavra = prompt('Escreva uma palavra qualquer')
-  console.log(palavra.toLocaleUpperCase())
+  console.log(palavra.toUpperCase())
 }
 
 // Exercício 7
 function calculaIngressosEspetaculo() {
-  // escreva seu código aqui
+  let valorEspetaculo = Number(prompt('Quanto custa este espetáculo?'))
+  let valorIngresso = Number(prompt('Quanto custa cada ingresso?'))
+  console.log(valorEspetaculo/valorIngresso)
 }
 
 // Exercício 8
 function checaStringsMesmoTamanho() {
   let string1 = prompt('Escreva uma palavra qualquer')
   let string2 = prompt('Escreva outra palavra')
-  console.log(string1.length=== string2.length)
+  console.log(string1.length === string2.length)
 
 }
 
 // Exercício 9
 function checaIgualdadeDesconsiderandoCase() {
-  // escreva seu código aqui
+  let op1 = prompt('Digite uma palavra')
+  let op2 = prompt('Digite outra palavra')
+  console.log(op1.toUpperCase() == op2.toUpperCase())
 }
 
 // Exercício 10
 function checaRenovacaoRG() {
-  // escreva seu código aqui
+  let anoAtualEx10 = Number(prompt('Em que ano estamos?'))
+  let anoNascimento = Number(prompt('Em que ano você nasceu?'))
+  let anoCarteira = Number(prompt('Em que ano sua carteira foi emitida?'))
+  let idade = anoAtualEx10 - anoNascimento
+  console.log
 }
 
 // Exercício 11
@@ -95,5 +103,9 @@ function checaAnoBissexto() {
 
 // Exercício 12
 function checaValidadeInscricaoLabenu() {
-  // escreva seu código aqui
+  let idadeLabenu = prompt('Quantos é maior de idade (18 anos)?')
+  let ensinoMedio = prompt('Você já finalizou o ensino médio?')
+  let horario = prompt('Você tem disponibilidade no horário do curso?')
+  
+  console.log(idadeLabenu == 'sim' && ensinoMedio == 'sim' && horario =='sim')
 }
