@@ -93,12 +93,19 @@ function checaRenovacaoRG() {
   let anoNascimento = Number(prompt('Em que ano você nasceu?'))
   let anoCarteira = Number(prompt('Em que ano sua carteira foi emitida?'))
   let idade = anoAtualEx10 - anoNascimento
-  console.log
+  let renovacao = anoAtualEx10 - anoCarteira
+  console.log(idade<=20 && renovacao>=5 && renovacao<10 || idade>20 && idade<=50 && renovacao>=10 && renovacao<15 || idade>50 && renovacao>=15)
 }
 
 // Exercício 11
 function checaAnoBissexto() {
-  // escreva seu código aqui
+  let anoQualquer = prompt(Number('Digite um ano qualquer'))
+  let testa400 = anoQualquer%400==0
+  let testa4 = anoQualquer%4==0
+  let testa100 = anoQualquer%100!==0
+
+  console.log(testa400 || testa4 && testa100)
+
 }
 
 // Exercício 12
