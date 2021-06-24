@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section style="width: 600px; border-radius: 30px;">
+        <div class="conteudo">
+            <h2 style="color: black; margin-bottom: 10px;">HortFrut da Gabi</h2>
+        </div>
+        <div class="conteudo">
+            <a href="/semana6/entrega1/index.html">Página Inicial</a>
+            <a href="/semana6/entrega1/ventas_historico.html">Histórico de Vendas</a>
+        </div class="conteudo">
+        <form action="/semana6/entrega1/ventas_historico.html" style="margin-top: 10px;">
+    
+            <div class="conteudo">
+                <label for="menuProduto">Adicionar Produto: </label>
+                <select name="menuProduto" id="menuProduto">
+                    <option value="null"></option>
+                    <option value="Banana">Banana</option>
+                    <option value="Maça">Maça</option>
+                    <option value="Mexerica">Mexerica</option>
+                    <option value="Melancia">Melancia</option>
+                    <option value="Abacaxi">Abacaxi</option>
+                </select>
+            </div>  
+
+            <div class="conteudo">
+                <label for="botaoInserir"></label>
+                <input type="button" value="Inserir" name="botaoInserir" id="botaoInserir">
+            </div>
+            
+            <div class="conteudo">
+                <select name="listaProdutos" id="listaProdutos" size="10">
+
+                </select>
+            </div>
+            
+            <div class="conteudo">
+                <label for="funcionario">Funcionário: </label>
+                <select name="funcionario" id="funcionario">
+                    <option value="null"></option>
+                    <option value="Bruno Móvio">Bruno Móvio</option>
+                    <option value="Pedro Sekine">Pedro Sekine</option>
+                    <option value="Rebeca Cristino">Rebeca Cristino</option>
+                    <option value="Maju Baraldi">Maju Baraldi</option>
+                </select>
+            </div>
+    
+            <div class="conteudo">
+                <label for="pagamento">Forma de pagamento: </label>
+                <select name="pagamento" id="pagamento">
+                    <option value="null"></option>
+                    <option value="Débito">Débito</option>
+                    <option value="Crédito">Crédito</option>
+                    <option value="Dinheiro">Dinheiro</option>
+                </select>
+            </div>
+            <div class="conteudo">
+                <label for="registrar"></label>
+                <input type="submit" id="registrar" name="registrar">
+            </div>
+        
+        </form>
+    </section>
+</body>
+</html>
