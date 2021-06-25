@@ -1,0 +1,44 @@
+.pagInialImagens{
+    width: 100px;
+    height: 100px;
+}
+
+.estoqueImagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+body{
+    background-image: url(https://www.deltafrio.com.br/img/gco-images/581-pt-br.jpg);
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+a{
+    margin: 5px;
+}
+
+th{
+    padding: 25px;
+}
+
+.organizaListaEstoque{
+    padding: 50px;
+}
+
+select{
+    width: 130px;
+    size: 1;
+    margin-bottom: 5px;
+}
+
+section{
+    background-color: white;
+}
+
+.conteudo{
+    margin-left: 30px;
+}
