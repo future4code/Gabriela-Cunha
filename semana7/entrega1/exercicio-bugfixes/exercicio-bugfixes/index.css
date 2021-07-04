@@ -61,6 +61,11 @@ div img {
     width: 40px;
 }
 
+.icone:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
 
 /** 
   *
