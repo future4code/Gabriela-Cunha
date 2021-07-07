@@ -1,0 +1,72 @@
+.corpo{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 70px 1fr 70px;
+}
+
+.menu{
+    background-color: #f2d0e0;
+}
+
+.menu >  div > div > img{
+    display: inline;
+    height: 15px;
+    width: 15px;
+}
+
+.menu > div > div > h3{
+    display: inline;
+}
+
+.menu > div > img{
+    height: 15px;
+    width: 15px;
+}
+
+header{
+    background-color: mediumvioletred;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: mediumvioletred;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bolinhos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.bolinhos > div{
+    margin: 5px 5px;
+}
+
+.bolinhos > div > img{
+    width: 290px;
+    height: 290px;
+}
+
+.bolinhoHeader{
+    align-items: center;
+}
+
+.bolinhoHeader > img{
+    display: inline;
+    height: 45px;
+    width: 45px;
+}
+
+.itensMenu{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
