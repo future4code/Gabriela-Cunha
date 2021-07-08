@@ -47,6 +47,7 @@ footer{
 
 .bolinhos > div{
     margin: 5px 5px;
+    box-shadow: 5px 5px 10px darkgray;
 }
 
 .bolinhos > div > img{
@@ -56,7 +57,9 @@ footer{
 
 .bolinhoHeader{
     align-items: center;
+    margin-top: 10px;
 }
+
 
 .bolinhoHeader > img{
     display: inline;
@@ -68,5 +71,10 @@ footer{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
 
+.login{
+    margin: 20px;
 }
