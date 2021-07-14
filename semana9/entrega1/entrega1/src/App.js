@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 
-function App() {
+export default function App() {
   const reproduzirVideo = () =>{
     alert('O vídeo está sendo reproduzido')
   }
@@ -65,4 +65,3 @@ function App() {
   );
 }
 
-export default App;
