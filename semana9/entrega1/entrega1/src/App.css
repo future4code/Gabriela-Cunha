@@ -40,8 +40,11 @@ main {
   padding-top: 20px;
   flex-grow: 1;
   display: grid;
-  grid-template-columns: repeat(4, 24.8% 0.2%);
-  grid-template-rows: repeat(4, 270px 20px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 10px;
 }
 
 .media1 {
