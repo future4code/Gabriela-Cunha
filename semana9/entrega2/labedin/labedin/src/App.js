@@ -12,7 +12,7 @@ function App() {
         <CardGrande 
           imagem="https://img-premium.flaticon.com/png/512/1785/premium/1785918.png?token=exp=1626399032~hmac=a613db9efa733c49ef2596fed59e4cca" 
           nome="Gabriela Fogaça Cunha" 
-          descricao="Oi, eu sou a Gabriela! Gerencio sistemas e processos na empresa Descomplica e estudo programação na Labenu no curso de Frontend!"
+          descricao="Oi, eu sou a Gabi! Gerencio sistemas e processos na empresa Descomplica e estudo programação na Labenu no curso de Frontend!"
         />
         <CardPequeno
           CardPequenoImagem='https://image.flaticon.com/icons/png/512/747/747314.png'
