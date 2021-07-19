@@ -10,7 +10,7 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://img-premium.flaticon.com/png/512/1785/premium/1785918.png?token=exp=1626399032~hmac=a613db9efa733c49ef2596fed59e4cca" 
+          imagem="https://image.flaticon.com/icons/png/512/163/163802.png" 
           nome="Gabriela Fogaça Cunha" 
           descricao="Oi, eu sou a Gabi! Gerencio sistemas e processos na empresa Descomplica e estudo programação na Labenu no curso de Frontend!"
         />
@@ -40,7 +40,7 @@ function App() {
         />
         
         <CardGrande 
-          imagem="https://img-premium.flaticon.com/png/512/1163/premium/1163482.png?token=exp=1626399241~hmac=f0cd883227f075e8016024f6727db20d" 
+          imagem="https://image.flaticon.com/icons/png/512/2637/2637203.png" 
           nome="Descomplica" 
           descricao="Gerenciamento de sistemas e banco de dados" 
         />
