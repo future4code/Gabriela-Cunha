@@ -14,6 +14,7 @@ export default class EnsinoGeral extends React.Component{
                     <option>Curso de idiomas</option>
                 </select>
                 <br />
+                <button onClick={this.props.voltarPagina}>Voltar</button>
                 <button onClick={this.props.TrocarPagina}>Próxima etapa</button>
             </>
         )

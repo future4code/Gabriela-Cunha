@@ -10,6 +10,7 @@ export default class EnsinoSuperior extends React.Component{
                 <p>2 - Qual a unidade de ensino?</p>
                 <input />
                 <br />
+                <button onClick={this.props.voltarPagina}>Voltar</button>
                 <button onClick={this.props.TrocarPagina}>Pŕoxima etapa</button>
             </>
         )

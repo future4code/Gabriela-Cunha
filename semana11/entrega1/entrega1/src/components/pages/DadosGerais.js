@@ -3,9 +3,11 @@ import styled from 'styled-components'
 
 export default class DadosGerais extends React.Component{
     render(){
+        
         return(
             <>
                 <h1>ETAPA 1 - DADOS GERAIS</h1>
+                <form>
                 <p>1 - Qual é o seu nome?</p>
                 <input />
                 <p>2 - Qual é a sua idade?</p>
@@ -14,12 +16,13 @@ export default class DadosGerais extends React.Component{
                 <input />
                 <p>4. Qual a sua escolaridade?</p>
                 <select>
-                    <option>Ensino Médio Incompleto</option>
-                    <option>Ensino Médio Completo</option>
-                    <option>Ensino Superior Incompleto</option>
-                    <option>Ensino Superior Cursando</option>
-                    <option>Ensino Superior Completo</option>
+                    <option value='MedioIncompleto'>Ensino Médio Incompleto</option>
+                    <option value='MedioCompleto'>Ensino Médio Completo</option>
+                    <option value='SuperiorIncompleto'>Ensino Superior Incompleto</option>
+                    <option value='SuperiorCursando'>Ensino Superior Cursando</option>
+                    <option value='SuperiorCompleto'>Ensino Superior Completo</option>
                 </select>
+                </form>
                 <br />
                 <button onClick={this.props.TrocarPagina}>Próxima etapa</button>
             </>
