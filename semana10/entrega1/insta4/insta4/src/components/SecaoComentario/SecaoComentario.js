@@ -14,12 +14,21 @@ const InputComentario = styled.input`
 
 export class SecaoComentario extends Component {
 	state = {
-		comentario: ''
+		comentario: '',
+		listaDeComentarios : []
 	}
 
 	onChangeComentario = (event) => {
 		console.log('MUDOU', event.target.value)
 		this.setState({comentario: event.target.value})
+	}
+
+	adicionarComentario = () =>{
+		const novoComentario = {
+			coment: this.state.comentario
+		}
+		const maisComentarios = [...this.state.listaDeComentarios, novoComentario]
+		this.setState({listaDeComentarios: maisComentarios})
 	}
 
 	render() {
