@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import styled from 'styled-components'
+import axios from 'axios'
+import imagemDeFundo from '../src/imagemdefundo.jpeg'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const ContainerPrincipal = styled.div`
+  background-color: black;
+  background-image: 'https://www.pexels.com/pt-br/foto/aurora-boreal-1938351/';
+  width: 80vw;
+  height: 75vh;
+  margin: auto;
+  margin-top: 7%;
+  display: flex;
+  flex-direction: block;
+  justify-content: space-between;
+`
+const MenuLateral = styled.div`
+  background-color: grey;
+  margin: 1%;
+`
+const MenuPrincipal = styled.div`
+  background-color: grey;
+`
 
-export default App;
+export default class App extends React.Component{
+  render(){
+    return(
+      <ContainerPrincipal>
+        <MenuLateral>
+          Teste
+        </MenuLateral>
+        <MenuPrincipal>
+          Teste
+        </MenuPrincipal>
+        
+      </ContainerPrincipal>
+    )
+  }
+} 
